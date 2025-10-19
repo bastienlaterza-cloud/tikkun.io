@@ -2,7 +2,8 @@
 // Expose un global window.TikkunCore.layout() pour WordPress.
 // NOTE: adapte l'import ci-dessous si le chemin diffère dans le repo.
 
-import { generateLines } from './src/layout/generateLines'; // <-- ADAPTER ce chemin s'il n'existe pas
+
+import { layout as generateLines } from './src/layout/index';
 
 type Token = string[];
 type VersesTokens = Token[];
